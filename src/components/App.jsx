@@ -1,4 +1,5 @@
 import React from "react";
+import Register from "./Register";
 
 function App() {
     return (
@@ -20,21 +21,7 @@ function App() {
                     </div>
                 </div>
                 <div className="intro-right">
-                    <div className="intro-right--title">
-                        <h3>Create an account</h3>
-                        <p>Let's get started with your 30 day free trial</p>
-                    </div>
-                    <form className="intro-register--form">
-
-                        <input name="name" placeholder="Name"></input>
-                        <input name="email" type="email" placeholder="Email"></input>
-                        <input name="password" type="password" placeholder="Password"></input>
-                        <button type="submit">Create Account</button>
-                    </form>
-
-
-                    <p>Already  have an account? <a href="#target">Login</a></p>
-
+                    <Register />
 
                 </div>
             </div>
